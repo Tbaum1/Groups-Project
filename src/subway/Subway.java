@@ -41,7 +41,7 @@ public class Subway extends Application {
     RadioButton pepper = new RadioButton("Pepper");
     Region left = new Region();
     Region top = new Region();
-    Region topSpacer = new Region();
+    Region submitSpacer = new Region();
     Region cheeseSpacer = new Region();
     Region bottom = new Region();
     Region right = new Region();
@@ -109,6 +109,7 @@ public class Subway extends Application {
         center.add(saltPepper, 3, 2);  //adding vbox saltPepper to gridPane
         center.add(display, 1, 3, 3,1);  //adding textArea display to gridPane
         center.add(submit, 1,4);  //adding submit button
+        center.add(submitSpacer, 2, 4, 2,1);
         root.setCenter(center);  //adding the gridPane to root
         root.setLeft(left);  //adding left region
         root.setRight(right);  //adding right region
@@ -183,6 +184,7 @@ public class Subway extends Application {
         top.getStyleClass().add("title");  //add class for css for top region
         bottom.setPrefSize(600, 100);  //set size of the bottom region
         display.setPrefSize(600, 550);  //set size of textArea
+        submitSpacer.getStyleClass().add("filler");
         submit.setOnAction((e) ->{  //lamda for submit button
             for(String s: order){  //iterate through ArrayList order
                 output = output + s + "\n";  //adding strings to order plust what was already in order
