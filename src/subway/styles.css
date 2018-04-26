@@ -15,7 +15,8 @@ and open the template in the editor.
     
 }
 
-.breadBox{
+.bread{
+    -fx-margin: 0,100,0,100;
     -fx-max-width: 275px;
     -fx-max-height:200px;
     -fx-background-color:#e9d460;
@@ -38,10 +39,6 @@ and open the template in the editor.
     -fx-background-color: #e9d460;
     -fx-border-radius: 0 15 0 0;
    
-}
-
-.bread{
-    -fx-margin: 0,100,0,100;
 }
 
 .vegetables{
