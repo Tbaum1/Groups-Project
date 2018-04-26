@@ -17,7 +17,9 @@ There is also a "Clear" button that clears everything that is chosen.
 
 The design was simple. We wanted the program to be very black and white to make the users interaction very straight forward and friendly. For the code, we used different methods within the same class to differentiate between the different groups (Cheeses, meats, bread, etc.).
 
+
 public void pepperNsalt(){  
+
         saltPepper.getChildren().addAll(lblPepperSalt, salt, pepper);  //adding objects to vbox saltPepper
         saltPepper.getStyleClass().add("sp");  //add class for css for saltPepper
         lblPepperSalt.setPadding(new Insets(25,0,0,65));  //set padding for lblPepperSalt
