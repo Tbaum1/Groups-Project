@@ -1,0 +1,90 @@
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 18, 2018, 9:09:12 PM
+    Author     : antho
+*/
+.title{
+    -fx-background-color: #1E824C;
+    -fx-alignment:center;
+   
+    
+}
+
+.breadBox{
+    -fx-max-width: 275px;
+    -fx-max-height:200px;
+    -fx-background-color:#e9d460;
+    -fx-border-radius: 15 0 0 0;
+    -fx-background-radius: 0 0 0 0;
+}
+
+.meatBox{
+    -fx-max-width: 230px;
+    -fx-max-height:200px;
+    -fx-background-color:#e9d460;
+    -fx-border-radius: 0 0 0 0;
+    -fx-background-radius: 0 0 0 0;
+}
+
+.cheeses{
+    -fx-min-width: 250px;
+    -fx-max-width: 200px;
+    -fx-max-width: 500px;
+    -fx-background-color: #e9d460;
+    -fx-border-radius: 0 15 0 0;
+   
+}
+
+.bread{
+    -fx-margin: 0,100,0,100;
+}
+
+.vegetables{
+    -fx-background-color:#e9d460;
+    -fx-min-height: 170px;
+}    
+
+.sauces{
+    -fx-background-color:#e9d460;
+   
+}
+
+.sp{
+    -fx-background-color:#e9d460;
+}
+
+.left{
+    -fx-background-color:#e9d460;
+}
+
+.right{
+    -fx-background-color:#e9d460;
+}
+
+.bottom{
+    -fx-background-color:#e9d460;
+}
+
+ .meatBox{
+    -fx-max-width: 230px;
+    -fx-max-height:220px;
+     -fx-background-color:#e9d460;
+     -fx-border-radius: 0 0 0 0;
+     -fx-background-radius: 0 0 0 0;
+ }
+ 
+ .vegetables{
+     -fx-background-color:#e9d460;
+     -fx-min-height: 170px;
+    }    
+   
+ .sauces{
+     -fx-background-color:#e9d460;
+    -fx-max-width: 250px;
+ }
+
