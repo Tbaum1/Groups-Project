@@ -222,7 +222,7 @@ public class Subway extends Application {
     
     public void veggieComponents(){
 //        vegetable.setBorder(new Border(new BorderStroke(Color.DARKGRAY,BorderStrokeStyle.SOLID, new CornerRadii(0), new BorderWidths(1.5))));
-        vegetable.getChildren().addAll(lblVeggieLabel,veggies1, veggies2); //adding objects to vbox vetetable
+        vegetable.getChildren().addAll(lblVeggie,veggies1, veggies2); //adding objects to vbox vetetable
         veggies1.getChildren().addAll(onions, tomatoes);  //adding objects to hbox veggie1
         veggies2.getChildren().addAll(lettuce, olives);  //adding objects to hbox veggie2
         vegetable.getStyleClass().add("vegetables");  //add class for css for vbox vegetable
